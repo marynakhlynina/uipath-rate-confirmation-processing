@@ -1,52 +1,67 @@
-# AI-Powered Rate Confirmation Processing Automation
+# AI-Powered Logistics Operations Automation
 
-## Overview
+AI-powered UiPath automation designed to streamline logistics rate confirmation processing through document extraction, mileage enrichment, validation workflows, and structured operational reporting.
 
-An end-to-end UiPath automation designed to streamline logistics rate confirmation processing through AI-powered document extraction, mileage enrichment, validation logic, and structured spreadsheet reporting.
-
-The workflow automates repetitive operational tasks while improving reporting efficiency, data consistency, and scalability.
+The workflow transforms unstructured broker rate confirmations into structured shipment data, reducing repetitive manual work and improving reporting efficiency across carrier operations.
 
 ---
 
 ## Business Context
 
-Carrier operations teams process large volumes of broker rate confirmations daily. Manual handling of shipment documents, mileage lookup, and spreadsheet reporting created repetitive operational bottlenecks and limited scalability.
+Carrier operations teams process large volumes of broker rate confirmations daily. Manual processing requires repetitive document review, shipment data extraction, mileage lookup, spreadsheet entry, and RPM reporting.
+
+This creates operational bottlenecks, increases the risk of manual errors, and limits reporting scalability.
 
 ---
 
 ## Automation Solution
 
-The automation workflow:
-- Retrieves rate confirmations from email
-- Stores documents in Google Drive
-- Extracts shipment data using Document Understanding
-- Calculates mileage using AI enrichment
-- Validates extracted data quality
-- Generates structured spreadsheet output
-- Sends alerts for incomplete or low-confidence data
+An end-to-end UiPath workflow was developed to automate rate confirmation processing through:
+
+- Automated email intake
+- Document Understanding extraction
+- AI-powered mileage calculation
+- Validation and monitoring logic
+- Structured reporting output in Google Sheets
+
+The workflow converts unstructured shipment documents into structured operational data for reporting and operational analysis.
 
 ---
 
 ## Technologies Used
 
 - UiPath
-- Document Understanding
+- UiPath Document Understanding
 - Generative Extractor
 - AI / LLM Integration
 - Google Drive
 - Google Sheets
-- Validation Logic
-- Logging & Monitoring
+- Gmail Integration
+- Validation & Monitoring Logic
+- Logging & Debugging Workflows
+
+---
+
+## Key Features
+
+- Automated retrieval of broker rate confirmations
+- Shipment data extraction from PDF documents
+- AI-based mileage calculation
+- Validation and low-confidence detection
+- Automated alert notifications
+- Structured spreadsheet reporting
+- RPM reporting support
 
 ---
 
 ## Key Outcomes
 
-- ~70–80% reduction in manual processing
-- Automated handling of dozens of confirmations
-- Faster RPM reporting
+- ~70–80% reduction in repetitive manual processing
+- Automated processing of shipment confirmations
+- Reduced repetitive data entry and manual lookup
+- Faster RPM reporting workflows
 - Improved operational visibility
-- Reduced repetitive data entry
+- Supports scalable shipment document processing
 
 ---
 
@@ -58,40 +73,48 @@ The automation workflow:
 
 ## Document Understanding Pipeline
 
-![DU Pipeline](assets/document-understanding-pipeline.png)
+![Document Understanding Pipeline](assets/document-understanding-pipeline.png)
 
 ---
 
 ## Custom Extraction Fields
 
-![Custom Extraction](assets/custom-extraction-fields.png)
+![Custom Extraction Fields](assets/custom-extraction-fields.png)
 
 ---
 
-## AI-Based Mileage Enrichment
+## AI-Powered Mileage Calculation
 
-![AI Mileage](assets/ai-based-mileage-enrichment.png)
+![AI-Based Mileage Enrichment](assets/ai-based-mileage-enrichment.png)
 
 ---
 
-## Data Quality Validation
+## Data Mapping & Debugging
+
+![Google Sheets Data Mapping](assets/google-sheets-data-mapping.png)
+
+---
+
+## Validation Logic
 
 ![Validation Logic](assets/data-quality-validation-logic.png)
 
 ---
 
-## Validation & Monitoring
+## Workflow Monitoring & Alerts
 
-![Monitoring Logs](assets/validation-monitoring-logs.png)
+![Validation Monitoring Logs](assets/validation-monitoring-logs.png)
+
+![Manual Review Email Alert](assets/manual-review-email-alert.png)
 
 ---
 
-## Structured Spreadsheet Output
+## Structured Reporting Output
 
-![Spreadsheet Output](assets/structured-spreadsheet-output.png)
+![Structured Spreadsheet Output](assets/structured-spreadsheet-output.png)
 
 ---
 
 ## Documentation
 
-Additional project documentation is available in the `/docs` folder.
+Additional project documentation and presentation materials are available in the `/docs` folder.
